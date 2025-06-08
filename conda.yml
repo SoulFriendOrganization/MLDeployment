@@ -1,0 +1,16 @@
+name: project_environment
+dependencies:
+  # The python interpreter version.
+
+  # Currently Azure ML only supports 3.5.2 and later.
+
+- python=3.8
+
+- pip:
+  - azureml-defaults
+  - torch
+  - torchvision
+  - pillow
+  - opencv-python-headless
+channels:
+- conda-forge
